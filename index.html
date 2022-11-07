@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JS Piano Kit</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="keys">
+            <div data-key="65" class="key">
+                <!-- dataはカスタムデータ属性とも呼ばれていて、独自の属性を設定することができます。 -->
+                <kbd>A</kbd>
+                <span class="sound">do</span>
+            </div>
+            <div data-key="83" class="key">
+                <kbd>S</kbd>
+                <span class="sound">re</span>
+            </div>
+            <div data-key="68" class="key">
+                <kbd>D</kbd>
+                <span class="sound">mi</span>
+            </div>
+            <div data-key="70" class="key">
+                <kbd>F</kbd>
+                <span class="sound">fa</span>
+            </div>
+            <div data-key="71" class="key">
+                <kbd>G</kbd>
+                <span class="sound">so</span>
+            </div>
+            <div data-key="72" class="key">
+                <kbd>H</kbd>
+                <span class="sound">la</span>
+            </div>
+            <div data-key="74" class="key">
+                <kbd>J</kbd>
+                <span class="sound">ti</span>
+            </div>
+            <div data-key="75" class="key">
+                <kbd>K</kbd>
+                <span class="sound">do</span>
+            </div>
+            <div data-key="76" class="key">
+                <kbd>L</kbd>
+                <span class="sound">♪</span>
+            </div>
+        </div>
+
+        <audio data-key="65" src="sounds/魔王魂  ピアノ2-1ド.wav"></audio>
+        <audio data-key="83" src="sounds/魔王魂  ピアノ2-2レ.wav"></audio>
+        <audio data-key="68" src="sounds/魔王魂  ピアノ2-3ミ.wav"></audio>
+        <audio data-key="70" src="sounds/魔王魂  ピアノ2-4ファ.wav"></audio>
+        <audio data-key="71" src="sounds/魔王魂  ピアノ2-5ソ.wav"></audio>
+        <audio data-key="72" src="sounds/魔王魂  ピアノ2-6ラ.wav"></audio>
+        <audio data-key="74" src="sounds/魔王魂  ピアノ2-7シ.wav"></audio>
+        <audio data-key="75" src="sounds/魔王魂  ピアノ1-8ド.wav"></audio>
+        <audio data-key="76" src="sounds/魔王魂  ピアノ1-Cコード.wav"></audio>
+
+        <script src="script.js"></script>
+    </body>
+</html>
